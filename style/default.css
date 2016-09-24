@@ -1,0 +1,23 @@
+header, main, footer
+{
+    margin-left: 300px;
+}
+
+
+.nav-item
+{
+    line-height: 64px;
+    margin: auto 10px auto 10px;
+}
+
+.center
+{
+    background: green;
+    height: 600px
+}
+
+.right-side
+{
+    background: yellow;
+    height:600px;
+}

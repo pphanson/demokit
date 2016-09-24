@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css"  media="screen,projection"/>
+    <link href="style/default.css" rel='stylesheet'>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+
+    <header>
+      <nav>
+        <div class="nav-wrapper">
+          <ul id="top-nav" class="left hide-on-med-and-down">
+              <li class="material-icons nav-item">update</li>
+              <li class="material-icons nav-item">search</li>
+          </ul>
+        </div>
+      </nav>
+      <ul id="left-nav" class="side-nav fixed blue-grey darken-3">
+        <li class='logo'><a href='http://www.zhixingit.com/'>智行科技</a></li>
+        <li class='search'><input type='search' placeholder='智行科技'></input></li>
+        <li class='no-padding'>
+          <ul class='collapsible' data-collapsible="accordion">
+            <li class='bold'>
+              <a class="collapsible-header  waves-effect waves-teal">Dashboard</a>
+              <div class='collapsible-body'>
+                <ul>
+                  <li><a>Project</a></li>
+                  <li><a>Server</a></li>
+                  <li><a>Analytic</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li><a href='#'>Calendar</a></li>
+
+      </ul>
+    </header>
+
+    <main>
+        <div class='row'>
+          <div class='col s12 m9 l10 center'>
+             <ul class="tabs">
+               <li class="tab col s4"><a href="#home" class="active" >Home</a></li>
+               <li class="tab col s4"><a href="#budget">Budget Summary</a></li>
+               <li class="tab col s4"><a href="#team">Team Memembers</a></li>
+             </ul>
+             <div id="home" class="col s12">Home Page</div>
+             <div id="budget" class="col s12">Budget Page</div>
+             <div id="team" class="col s12">Team Page</div>
+          </div>
+          <div class='col hide-on-small-only m3 l2 right-side'>
+          </div>
+        </div>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
